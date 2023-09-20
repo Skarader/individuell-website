@@ -14,7 +14,7 @@ header {
   max-width: 100vw;
   padding: 30px 30px 20px 30px;
 
-  box-shadow: 0px 0px 5px 0px;
+  box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.5);
   user-select: none;
 }
 .page-title {
@@ -87,7 +87,6 @@ header {
 .main-content-wrapper {
   position: relative;
   padding: 50px 10px;
-  border: 1px dotted red;
 }
 main {
   max-width: 100vw;
@@ -99,7 +98,7 @@ main {
   gap: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid red;
+  border-bottom: 3px dotted red;
 }
 .text-story {
   display: flex;
@@ -126,9 +125,12 @@ main {
 }
 
 .catagory-info {
+  position: relative;
+  top: 4px;
   font-style: italic;
 }
 .catagory-info a {
+  font-weight: 600;
   padding: 2px;
   text-decoration: none;
   border: 1px solid red;
@@ -137,8 +139,10 @@ main {
 .catagory-info li {
   padding: 5px 5px 15px 5px;
 }
-.catagory-info li:hover {
+.catagory-info a:hover {
   cursor: pointer;
+  background-color: red;
+  color: white;
 }
 .catagory-info li {
   list-style-type: none;
