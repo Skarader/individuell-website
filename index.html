@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>News site clone</title>
+    <title>Home</title>
   </head>
   <body>
     <header>
@@ -21,11 +21,11 @@
         </nav>
         <nav class="bottom-nav-container">
           <ul>
-            <li><a>HOME</a></li>
-            <li><a>SPORTS</a></li>
-            <li><a>CULTURE</a></li>
-            <li><a>POLITICS</a></li>
-            <li><a>TECH</a></li>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/sports.html">SPORTS</a></li>
+            <li><a href="/culture.html">CULTURE</a></li>
+            <li><a href="/politics.html">POLITICS</a></li>
+            <li><a href="/tech.html">TECH</a></li>
           </ul>
         </nav>
       </div>
@@ -45,8 +45,12 @@
                 for several hours. "Every day is a struggle, we need more
                 weapons ammo and supplies" -- Zelensky</span
               >
-
-              <span class="story-author">By: Mark Test</span>
+              <div class="author-catagory-info">
+                <span class="catagory-info"
+                  ><li><a href="#POLITICS">Politics</a></li></span
+                >
+                <span class="story-author">By: Mark Test</span>
+              </div>
             </div>
             <figure class="story-picture">
               <img src="pictures/putin.jpg" alt="putin" />
@@ -64,11 +68,40 @@
                 protest. "It's time for Nicaragua to become the free democracy
                 its people desire"
               </span>
-              <span class="story-author">By: Mark Test</span>
+              <div class="author-catagory-info">
+                <span class="catagory-info"
+                  ><li><a href="#POLITICS">Politics</a></li></span
+                >
+                <span class="story-author">By: Mark Test</span>
+              </div>
             </div>
             <figure class="story-picture">
               <img src="pictures/nicaragua.jpg" alt="Nicaragua president" />
               <figcaption class="story-caption">Daniel Ortega</figcaption>
+            </figure>
+          </div>
+          <div class="main-story-content third-story">
+            <div class="text-story">
+              <h2 class="story-title">
+                Spain beats England 1-0 in the finals of the world cup
+              </h2>
+              <span class="story-info"
+                >The womens world cup is over and Spain stands at the end as the
+                winner. Carmona scored an early goal for Spain and England never
+                found a way to turn the tables. "The determination and
+                dedication to play everyday, as hard as these girls has done for
+                the entire world cup is astonishing" -- Carlos Puyol
+              </span>
+              <div class="author-catagory-info">
+                <span class="catagory-info"
+                  ><li><a href="#SPORTS">Sports</a></li></span
+                >
+                <span class="story-author">By: Mark Test</span>
+              </div>
+            </div>
+            <figure class="story-picture">
+              <img src="pictures/spainteam.jpg" alt="Spain national team" />
+              <figcaption class="story-caption">Spain National Team</figcaption>
             </figure>
           </div>
         </div>
@@ -96,7 +129,7 @@
                 </h3>
                 <p class="breaking-time">25 minutes ago</p>
               </div>
-              <figure class="braking-story-picture">
+              <figure class="breaking-story-picture">
                 <img src="pictures/trump.jpg" alt="trump" />
               </figure>
             </div>
