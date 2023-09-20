@@ -201,13 +201,24 @@ main {
   .main-story-content {
     flex-direction: column;
   }
-  .story-info {
-    padding-bottom: 35px;
+  .page-title {
+    text-align: start;
   }
-  .catagory-info {
-    position: absolute;
-    bottom: -15px;
-    left: 80%;
+  .bottom-nav-container {
+    justify-content: flex-start;
+  }
+  @media (max-width: 2000px) {
+    .main-story-content {
+      flex-direction: column;
+    }
+    .story-info {
+      padding-bottom: 35px;
+    }
+    .catagory-info {
+      position: absolute;
+      bottom: -15px;
+      left: 80%;
+    }
   }
 }
 
@@ -266,6 +277,7 @@ main {
     top: 10px;
   }
 }
+
 @media (max-width: 750px) {
   .page-title {
     text-align: center;
