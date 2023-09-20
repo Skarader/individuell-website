@@ -207,18 +207,17 @@ main {
   .bottom-nav-container {
     justify-content: flex-start;
   }
-  @media (max-width: 2000px) {
-    .main-story-content {
-      flex-direction: column;
-    }
-    .story-info {
-      padding-bottom: 35px;
-    }
-    .catagory-info {
-      position: absolute;
-      bottom: -15px;
-      left: 80%;
-    }
+
+  .main-story-content {
+    flex-direction: column;
+  }
+  .story-info {
+    padding-bottom: 35px;
+  }
+  .catagory-info {
+    position: absolute;
+    bottom: -15px;
+    left: 80%;
   }
 }
 
