@@ -181,7 +181,7 @@ main {
 }
 */
 .main-story-content img {
-  width: 100%;
+  width: 400px;
 }
 
 .breaking-story-wrapper {
@@ -249,6 +249,9 @@ footer {
 @media (max-width: 2000px) {
   .main-story-content {
     flex-direction: column;
+  }
+  .main-story-content img {
+    width: 100%;
   }
   .page-title {
     text-align: start;
