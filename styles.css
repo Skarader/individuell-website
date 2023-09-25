@@ -246,6 +246,10 @@ main {
 .article-text {
   font-size: 1.3rem;
 }
+
+.article-title::first-letter {
+  color: red;
+}
 /*INDIVIDUAL STORY CONTENT*/
 
 /*FOOTER*/
